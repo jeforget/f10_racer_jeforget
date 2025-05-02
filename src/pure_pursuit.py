@@ -152,8 +152,8 @@ if __name__ == "__main__":
         rate.sleep()
 
         # wait for start
-        #while pp.start != True:
-            #continue
+        while pp.start != True:
+            continue
 
         steer, ld = pp.calc_pp()
         #print(f"steer = {steer}")
